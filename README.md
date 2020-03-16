@@ -1,3 +1,28 @@
+# Excalidraw chrome extenions
+
+Run excalidraw in devtools!
+
+![](https://i.gyazo.com/8ce82c5730887514daa3ec1e9433f93f.png)
+
+## How to use
+
+Build first
+
+```bash
+git clone <this>
+yarn install
+yarn build
+```
+
+1. Access `chrome://extensions/`
+2. Check `Developer mode`
+3. Click on `Load unpacked extension`
+4. Select the `build` folder.
+
+---
+
+Original README
+
 # Chrome Extension Webpack Boilerplate
 
 A basic foundation boilerplate for rich Chrome Extensions using [Webpack](https://webpack.github.io/)
@@ -37,7 +62,9 @@ yarn dev
 yarn build
 ```
 
-Now, the content of `build` folder will be the extension ready to be submitted to the Chrome Web Store. Just take a look at the [official guide](https://developer.chrome.com/webstore/publish) to more infos about publishing.
+Now, the content of `build` folder will be the extension ready to be submitted to the Chrome Web Store.
+
+Just take a look at the [official guide](https://developer.chrome.com/webstore/publish) to more infos about publishing.
 
 ## LICENSE
 
