@@ -1172,10 +1172,10 @@
     "@types/istanbul-reports" "^1.1.1"
     "@types/yargs" "^13.0.0"
 
-"@mizchi/excalidraw@^1.0.1":
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/@mizchi/excalidraw/-/excalidraw-1.0.1.tgz#eb8c6a0ba18cf6e8ad9548490eec16b7f0bb92a9"
-  integrity sha512-Y+jEu3gx71vJzh2WHBlr1BqQS5InUN0mDqb8AAeKOtOa9cxLUoAfiQYK2N1cZk0onPmVabAkaoAHQ6neHOAA2A==
+"@mizchi/excalidraw@^1.0.2":
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/@mizchi/excalidraw/-/excalidraw-1.0.2.tgz#8b68cca4e5d46a622a39431da87a3605cd3bd208"
+  integrity sha512-PKxEjiHvI9smx7JyBVV/sZtuFPhubv4BaWdjjISMWuJ5BDjv7BKU1F7dRNiR9as7JlRxWvTAH5f63xUPJKZR0w==
   dependencies:
     browser-nativefs "0.3.1"
     i18next-browser-languagedetector "4.0.2"
