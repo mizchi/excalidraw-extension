@@ -10,10 +10,6 @@
     "persistent": false
   },
   "permissions": ["activeTab", "tabs", "http://*/*", "https://*/*"],
-  "browser_action": {
-    "default_popup": "popup.html",
-    "default_icon": "ex-logo-180x180.png"
-  },
   "icons": {
     "180": "ex-logo-180x180.png"
   },
