@@ -1,8 +1,8 @@
 {
-  "name": "mizchi-chrome-extension-webpack",
+  "name": "excalidraw-extension",
   "version": "0.0.1",
   "minimum_chrome_version": "10.0",
-  "description": "A boilerplate to chrome extension with webpack",
+  "description": "Excalidraw as chrome extension",
   "options_page": "options.html",
   "devtools_page": "devtools.html",
   "background": {
@@ -12,10 +12,10 @@
   "permissions": ["activeTab", "tabs", "http://*/*", "https://*/*"],
   "browser_action": {
     "default_popup": "popup.html",
-    "default_icon": "icon-34.png"
+    "default_icon": "ex-logo-180x180.png"
   },
   "icons": {
-    "128": "icon-128.png"
+    "180": "ex-logo-180x180.png"
   },
   "manifest_version": 2,
   "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'"
