@@ -1,4 +1,4 @@
-# Excalidraw chrome extenions
+# Excalidraw chrome extensions
 
 Run excalidraw in devtools!
 
