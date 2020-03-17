@@ -9,7 +9,7 @@
     "scripts": ["background.js"],
     "persistent": false
   },
-  "permissions": ["activeTab", "tabs", "http://*/*", "https://*/*"],
+  "permissions": ["activeTab", "tabs", "http://*/*", "https://*/*", "storage"],
   "icons": {
     "180": "ex-logo-180x180.png"
   },

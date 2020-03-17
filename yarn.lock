@@ -1172,14 +1172,16 @@
     "@types/istanbul-reports" "^1.1.1"
     "@types/yargs" "^13.0.0"
 
-"@mizchi/excalidraw@^1.0.2":
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/@mizchi/excalidraw/-/excalidraw-1.0.2.tgz#8b68cca4e5d46a622a39431da87a3605cd3bd208"
-  integrity sha512-PKxEjiHvI9smx7JyBVV/sZtuFPhubv4BaWdjjISMWuJ5BDjv7BKU1F7dRNiR9as7JlRxWvTAH5f63xUPJKZR0w==
+"@mizchi/excalidraw@^1.0.7":
+  version "1.0.7"
+  resolved "https://registry.yarnpkg.com/@mizchi/excalidraw/-/excalidraw-1.0.7.tgz#0d2b8a74e442a505d00f3249e5fce06a3b3da85d"
+  integrity sha512-EpnG+/VBDf3waqvuCTOMimQ+YHMcGXQbaokGd9fw2trm+30pVQqyHoWkz6oCnmLVeAk7Wc9JLNp+F1TGAoeXBg==
   dependencies:
-    browser-nativefs "0.3.1"
+    browser-nativefs "0.4.0"
     i18next-browser-languagedetector "4.0.2"
     nanoid "2.1.11"
+    react "16.13.0"
+    react-dom "16.13.0"
     react-scripts "3.4.0"
     roughjs "4.0.4"
     socket.io-client "2.3.0"
@@ -2351,10 +2353,10 @@ brorand@^1.0.1:
   resolved "https://registry.yarnpkg.com/brorand/-/brorand-1.1.0.tgz#12c25efe40a45e3c323eb8675a0a0ce57b22371f"
   integrity sha1-EsJe/kCkXjwyPrhnWgoM5XsiNx8=
 
-browser-nativefs@0.3.1:
-  version "0.3.1"
-  resolved "https://registry.yarnpkg.com/browser-nativefs/-/browser-nativefs-0.3.1.tgz#17545ca47b1b8912f543f12590f1b1335864c7d7"
-  integrity sha512-dLcodrZMuyyJvNGJaLKuhPF3uAX/mU2+D3nwbzIc7a1RaNd2enpJhATbq6xZZWeYEvckNRg7KmqgiX+0Ht3zzA==
+browser-nativefs@0.4.0:
+  version "0.4.0"
+  resolved "https://registry.yarnpkg.com/browser-nativefs/-/browser-nativefs-0.4.0.tgz#72ae6f1360c33178e88c66e467560cbd99777a86"
+  integrity sha512-CiCwgd4Ir5OTC1IyVgyYJ5kJR7RDU/KLwgjrynoNNnKrBVwex3zRPKMmdAbcBXQJDbIQNnCyUQyvhbqH/9ERJA==
 
 browser-process-hrtime@^1.0.0:
   version "1.0.0"
@@ -8628,7 +8630,7 @@ react-dev-utils@^10.2.0:
     strip-ansi "6.0.0"
     text-table "0.2.0"
 
-react-dom@^16.13.0:
+react-dom@16.13.0, react-dom@^16.13.0:
   version "16.13.0"
   resolved "https://registry.yarnpkg.com/react-dom/-/react-dom-16.13.0.tgz#cdde54b48eb9e8a0ca1b3dc9943d9bb409b81866"
   integrity sha512-y09d2c4cG220DzdlFkPTnVvGTszVvNpC73v+AaLGLHbkpy3SSgvYq8x0rNwPJ/Rk/CicTNgk0hbHNw1gMEZAXg==
@@ -8708,7 +8710,7 @@ react-scripts@3.4.0:
   optionalDependencies:
     fsevents "2.1.2"
 
-react@^16.13.0:
+react@16.13.0, react@^16.13.0:
   version "16.13.0"
   resolved "https://registry.yarnpkg.com/react/-/react-16.13.0.tgz#d046eabcdf64e457bbeed1e792e235e1b9934cf7"
   integrity sha512-TSavZz2iSLkq5/oiE7gnFzmURKZMltmi193rm5HEoUDAXpzT9Kzw6oNZnGoai/4+fUnm7FqS5dwgUL34TujcWQ==
